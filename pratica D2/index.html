@@ -13,10 +13,14 @@
         th{
             text-align:left
         }
+        .forms{
+            display: inline;
+            align-items: center;
+        }
     </style>
   </head>
   <body>
-    <img src="logo.png" alt="logo" />
+    <img src="./assets/logo.png" alt="logo" width="200" />
     <h1>Epicode il blog dei developers.</h1>
     <ul>
         <li>Home</li>
@@ -33,47 +37,53 @@
                 <th>Anno</th>
                 <th>% di utilizzo</th>
                     <th>Supporto Browser</th>
-                    </thead>
+                    </tr>
                 <tr>
                     <td>2000</td>
                     <td>20%</td>
                     <td>17%</td>
-                </thead>
+                </tr>
                 <tr>
                         <td>2002</td>
                         <td>35%</td>
                         <td>22%</td>
-                    </thead>
+                    </tr>
                 <tr>
                             <td>2004</td>
                             <td>45%</td>
                             <td>42%</td>
-                        </thead>
+                        </tr>
                         
                 <tr>
                                 <td>2008</td>
                                 <td>80%</td>
                                 <td>51%</td>
-                            </thead>
+                </tr>
                 <tr>
                                     <td>2012</td>
                                     <td>100%</td>
                                     <td>76%</td>
+                                </tr>
                                 </thead>
-          
-            </tr>
         </table>
         <p>
-            Un test di validazione potrà essere fatto tramite il tool online <a href="https://google.com">Visit link.</a>dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivoed essere stati dei veri developer come loro:<iframe width="560" height="315" src="https://www.youtube.com/embed/g7FjP6DpQ6s?si=fzQ_y7baYoF13Emp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            Voui rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter:
-            <form>
-                <label for="">nome</label>
-                <input type="text" id="name-input">
+            Un test di validazione potrà essere fatto tramite il tool online 
+            <a href="https://google.com">Visit link.</a>dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivoed essere stati dei veri developer come loro:<iframe width="560" height="315" src="https://www.youtube.com/embed/g7FjP6DpQ6s?si=fzQ_y7baYoF13Emp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Voui rimanere aggiornato su altre novità del blog? iscriviti alla nostra <span>newsletter:</span></p>
+            <form class="forms">
+                <label for="">Nome:</label>
+                <input type="text" id="name-input" placeholder="your name">
+                <form>
+                    <label for="">Last Name:</label>
+                    <input type="text" id="last-name-input" placeholder="your last name">
+
+                    <form>
+                        <label for="">email:</label>
+                        <input type="text" id="email-input" placeholder="your email">
+                        <button> send <form action="submit"></form></button>
+        
 
             </form>
-
-        </p>
-        <footer></footer>
       </main>
     </header>
   </body>
